@@ -31,7 +31,7 @@ for INDEX, CHUNK in reversed(list(enumerate(ARRAY))):   #cycle backwards through
         qr = qrcode.QRCode(                             #specifies variables for qrcode creation
             version = None,
             error_correction = qrcode.constants.ERROR_CORRECT_L,
-            box_size = 3.5,                     	#default was set to 4 but this was reduced so that QRcode would fit on a smaller screen size
+            box_size = 4,                     	#default was set to 4 but this was reduced so that QRcode would fit on a smaller screen size
             border = 4,
                 )
         qr.add_data(CHUNK)                              #inputs text segments to the qrcode object (qr) <- useless comment
