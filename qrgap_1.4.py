@@ -12,11 +12,11 @@ import qrcode
 from PIL import Image
 
 import sys
-import os
-
 if len(sys.argv) < 2:
-    print("USAGE: ./heniciyuhe <text file>")
-#    os.exit(1)
+	print("USAGE: ./thisscript.py <text file>")	
+	import os
+	os._exit(1)
+
 FILE_LOCATION = sys.argv[1]
 
 with open(FILE_LOCATION, 'r') as file:
