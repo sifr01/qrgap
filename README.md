@@ -4,13 +4,17 @@ Transfer text between devices which are air-gapped (eg. a 4096 byte key from com
 
 Dependencies
 ============
-```sudo python3-pip
-pip3 install qrcode```
+```
+sudo python3-pip
+pip3 install qrcode
+```
 
 Example:
 ========
-```python3 qrgap_1.6.py textfile.txt
-python3 qrgap_backwards_1.4.py textfile.txt```
+```
+python3 qrgap_1.6.py textfile.txt
+python3 qrgap_backwards_1.4.py textfile.txt
+```
 
 Standard qrgap.py script
 ========================
