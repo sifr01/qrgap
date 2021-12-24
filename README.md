@@ -1,8 +1,16 @@
-# qrgap
+qrgap
+=====
 Transfer text between devices which are air-gapped (eg. a 4096 byte key from computer to smartphone). This code can be used alongside the QRStream app, available in F-Droid. One version of the script displays the qrstream backwards so that the qrcode windows can be viewed, scanned and then closed in the correct order. 
 
+Dependencies
+============
+```sudo python3-pip
+pip3 install qrcode```
+
 Example:
-python qrgap.sh textfile.txt
+========
+```python3 qrgap_1.6.py textfile.txt
+python3 qrgap_backwards_1.4.py textfile.txt```
 
 Standard qrgap.py script
 ========================
