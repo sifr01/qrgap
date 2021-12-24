@@ -13,12 +13,12 @@ Standard qrgap script
 ------------------------
 When executed, the standard qrgap script opens as many windows as is needed to display the text file in successive qr codes. However, with the last qr code representing the end of the text file, when it comes to scanning this back in, it proves inconvenient. Therefore I have created the next script:
 
-qrgap backwards script
+Qrgap backwards script
 ----------------------
 This opens the qrcode windows in reverse order so that when it comes to scanning the codes back in, the first block of data can be scanned first, and so on..
 
-Example:
---------
+Example
+-------
 ```
 python3 qrgap_1.6.py textfile.txt
 python3 qrgap_backwards_1.4.py textfile.txt
