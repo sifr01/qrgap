@@ -23,3 +23,16 @@ Example
 python3 qrgap_1.6.py textfile.txt
 python3 qrgap_backwards_1.4.py textfile.txt
 ```
+Notes
+-----
+In linux, the following programs and command may come in handy for handling qrcodes:
+```
+sudo apt install qrencode
+qrencode -s 6 -l H -o "/tmp/text.png" "this is some text which will be rendered into a qrcode"
+display /tmp/text.png
+```
+```
+sudo apt install zbar-tools
+zbarimg
+zbarcam
+```
